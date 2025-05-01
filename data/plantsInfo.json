@@ -1,7 +1,7 @@
 [
     {
         "title": "Горохострел",
-        "imagePath": "assets/images/plantsImages/Pea.webp",
+        "imagePath": "Pea.webp",
         "description": "Горохострелы — это была первая линия обороны. Они стреляют горохом в атакующих зомби.",
         "stats": [
             {
@@ -15,7 +15,7 @@
     },
     {
         "title": "Подсолнух",
-        "imagePath": "assets/images/plantsImages/Sunflower2.webp",
+        "imagePath": "Sunflower2.webp",
         "description": "Подсолнух очень важен, он производит для вас дополнительное солнце. Выращивайте их как можно больше! ",
         "stats": [
             {
@@ -29,7 +29,7 @@
     },
     {
         "title": "Вишнёвые Бомбы",
-        "imagePath": "assets/images/plantsImages/Cherry_Bomb1.webp",
+        "imagePath": "Cherry_Bomb1.webp",
         "description": "Вишнёвые бомбы - могут взорвать всех зомби вокруг себя. Они быстро срабатывают, так что сажайте их рядом с зомби.",
         "stats": [
             {
@@ -48,7 +48,7 @@
     },
     {
         "title": "Стена-Орех",
-        "imagePath": "assets/images/plantsImages/Wall-nut.webp",
+        "imagePath": "Wall-nut.webp",
         "description": "Стена-Орех",
         "stats": [
             {
@@ -62,7 +62,7 @@
     },
     {
         "title": "Картофельные Мины",
-        "imagePath": "assets/images/plantsImages/Potato_Mine2.webp",
+        "imagePath": "Potato_Mine2.webp",
         "description": "Картофельные Мины - это мощное оружие, но им нужно время на зарядку. Вам нужно сажать их перед зомби.",
         "stats": [
             {
@@ -86,7 +86,7 @@
     },
     {
         "title": "Ледяной Горох",
-        "imagePath": "assets/images/plantsImages/Snow_Pea2.webp",
+        "imagePath": "Snow_Pea2.webp",
         "description": "Морозный Горох - стреляет замороженными горошинами, которые повреждают и замедляют зомби.",
         "stats": [
             {
@@ -105,7 +105,7 @@
     },
     {
         "title": "Зубастик",
-        "imagePath": "assets/images/plantsImages/Chomper1.webp",
+        "imagePath": "Chomper1.webp",
         "description": "Жевуны - могут проглотить зомби целиком, но они уязвимы, когда жуют.",
         "stats": [
             {
@@ -129,7 +129,7 @@
     },
     {
         "title": "Скорострел",
-        "imagePath": "assets/images/plantsImages/Repeater1.webp",
+        "imagePath": "Repeater1.webp",
         "description": "Повторители - стреляют двумя горошинами за раз",
         "stats": [
             {
@@ -148,7 +148,7 @@
     },
     {
         "title": "Спорогриб",
-        "imagePath": "assets/images/plantsImages/Puff-shroom2.webp",
+        "imagePath": "Puff-shroom2.webp",
         "description": "Спорогриб - бесплатный, и стреляет только на малые дистанции.",
         "stats": [
             {
@@ -172,7 +172,7 @@
     },
     {
         "title": "Солнцегриб",
-        "imagePath": "assets/images/plantsImages/Sun-shroom1.png",
+        "imagePath": "Sun-shroom1.png",
         "description": "Солнцегриб - даёт сначала небольшое солнце, а потом нормальное.",
         "stats": [
             {
@@ -191,7 +191,7 @@
     },
     {
         "title": "Дымогриб",
-        "imagePath": "assets/images/plantsImages/Fume-shroom1.webp",
+        "imagePath": "Fume-shroom1.webp",
         "description": "Дымогриб - стреляет дымом, который проходит через защитную сетку.",
         "stats": [
             {
@@ -215,7 +215,7 @@
     },
     {
         "title": "Уничтожитель Могил",
-        "imagePath": "assets/images/plantsImages/Grave_Buster1.webp",
+        "imagePath": "Grave_Buster1.webp",
         "description": "Могилоед - посадите на могилу, чтобы уничтожить её",
         "stats": [
             {
@@ -234,7 +234,7 @@
     },
     {
         "title": "Гипногриб",
-        "imagePath": "assets/images/plantsImages/Hypno-shroom1.webp",
+        "imagePath": "Hypno-shroom1.webp",
         "description": "Гипногриб - когда его съедают, обращает зомби на Вашу сторону",
         "stats": [
             {
@@ -258,7 +258,7 @@
     },
     {
         "title": "Страхогриб",
-        "imagePath": "assets/images/plantsImages/Scaredy-shroom1.webp",
+        "imagePath": "Scaredy-shroom1.webp",
         "description": "Трусогриб - стреляет на дальние дистанции, но прячется, когда враг подходит близко.",
         "stats": [
             {
@@ -282,7 +282,7 @@
     },
     {
         "title": "Ледогриб",
-        "imagePath": "assets/images/plantsImages/Ice-shroom2.webp",
+        "imagePath": "Ice-shroom2.webp",
         "description": "Ледогриб временно останавливает всех зомби на экране.",
         "stats": [
             {
@@ -311,7 +311,7 @@
     },
     {
         "title": "Гриб Судьбы",
-        "imagePath": "assets/images/plantsImages/Doom-shroom2.webp",
+        "imagePath": "Doom-shroom2.webp",
         "description": "Гриб Судьбы - уничтожает всё на большом расстоянии, но оставляет кратер, в котором нельзя сажать растения.",
         "stats": [
             {
@@ -340,7 +340,7 @@
     },
     {
         "title": "Лист Кувшинки",
-        "imagePath": "assets/images/plantsImages/Lily_Pad2.webp",
+        "imagePath": "Lily_Pad2.webp",
         "description": "Лист Кувшинки - позволяет Вам сажать не водные растения на себя.",
         "stats": [
             {
@@ -369,7 +369,7 @@
     },
     {
         "title": "Кабачок",
-        "imagePath": "assets/images/plantsImages/Squash.webp",
+        "imagePath": "Squash.webp",
         "description": "Кабачок - поражает первого зомби, который подойдёт к нему.",
         "stats": [
             {
@@ -393,7 +393,7 @@
     },
     {
         "title": "Тристрел",
-        "imagePath": "assets/images/plantsImages/Threepeater1.webp",
+        "imagePath": "Threepeater1.webp",
         "description": "Тристрел - стреляет горошинами в три ряда.",
         "stats": [
             {
@@ -412,7 +412,7 @@
     },
     {
         "title": "Водоросль",
-        "imagePath": "assets/images/plantsImages/Tangle_Kelp1.webp",
+        "imagePath": "Tangle_Kelp1.webp",
         "description": "Водоросль - это водное растение, которое затягивает первого попавшегося зомби под воду.",
         "stats": [
             {
@@ -436,7 +436,7 @@
     },
     {
         "title": "Острый Перец",
-        "imagePath": "assets/images/plantsImages/Jalapeno1.webp",
+        "imagePath": "Jalapeno1.webp",
         "description": "Острый Перец - уничтожает всех зомби на линии.",
         "stats": [
             {
@@ -460,7 +460,7 @@
     },
     {
         "title": "Колючки",
-        "imagePath": "assets/images/plantsImages/Spikeweed1.webp",
+        "imagePath": "Spikeweed1.webp",
         "description": "Колючки - пробивают шины и ранят любого зомби, наступившего на них.",
         "stats": [
             {
@@ -484,7 +484,7 @@
     },
     {
         "title": "Пень-Факир",
-        "imagePath": "assets/images/plantsImages/PenFakir.webp",
+        "imagePath": "PenFakir.webp",
         "description": "Пень-Факир - превращает горошины, проходящие через него в огненные шары, которые наносят в два раза больше урона.",
         "stats": [
             {
@@ -498,7 +498,7 @@
     },
     {
         "title": "Высокий Орех",
-        "imagePath": "assets/images/plantsImages/Tall-nut2.webp",
+        "imagePath": "Tall-nut2.webp",
         "description": "Высокие Орехи - это укреплённые стены, которые нельзя перепрыгнуть.",
         "stats": [
             {
@@ -517,7 +517,7 @@
     },
     {
         "title": "Морегриб",
-        "imagePath": "assets/images/plantsImages/Sea-shroom1.webp",
+        "imagePath": "Sea-shroom1.webp",
         "description": "Морегрибы – это водные растения, которые стреляют спорами на малые дистанции.",
         "stats": [
             {
@@ -546,7 +546,7 @@
     },
     {
         "title": "Растение-Фонарь",
-        "imagePath": "assets/images/plantsImages/Plantern2.webp",
+        "imagePath": "Plantern2.webp",
         "description": "Куст-Фонарь – освещает окрестности, позволяя видеть сквозь туман.",
         "stats": [
             {
@@ -565,7 +565,7 @@
     },
     {
         "title": "Кактус",
-        "imagePath": "assets/images/plantsImages/Cactus1.webp",
+        "imagePath": "Cactus1.webp",
         "description": "Кактусы - стреляют шипами, которые могут сбивать наземные и воздушные цели.",
         "stats": [
             {
@@ -584,7 +584,7 @@
     },
     {
         "title": "Ветродуй",
-        "imagePath": "assets/images/plantsImages/Blover1.webp",
+        "imagePath": "Blover1.webp",
         "description": "Ветродуи – сдувают туман и всех зомби на шариках.",
         "stats": [
             {
@@ -603,7 +603,7 @@
     },
     {
         "title": "Сиамский Горохострел",
-        "imagePath": "assets/images/plantsImages/Split_Pea2.webp",
+        "imagePath": "Split_Pea2.webp",
         "description": "Сиамский Горохострел – Стреляют горошинами вперёд и назад.",
         "stats": [
             {
@@ -622,7 +622,7 @@
     },
     {
         "title": "Звездофрукт",
-        "imagePath": "assets/images/plantsImages/Starfruit.webp",
+        "imagePath": "Starfruit.webp",
         "description": "Звездоплод – стреляет звёздами в пяти направлениях.",
         "stats": [
             {
@@ -641,7 +641,7 @@
     },
     {
         "title": "Тыква",
-        "imagePath": "assets/images/plantsImages/Pumpkin2.webp",
+        "imagePath": "Pumpkin2.webp",
         "description": "Тыква – защищают растения в пределах своей оболочки.",
         "stats": [
             {
@@ -660,7 +660,7 @@
     },
     {
         "title": "Магнитогриб",
-        "imagePath": "assets/images/plantsImages/Magnet-shroom.webp",
+        "imagePath": "Magnet-shroom.webp",
         "description": "Магнитогриб – снимают с зомби шлемы и другие металлические предметы.",
         "stats": [
             {
@@ -684,7 +684,7 @@
     },
     {
         "title": "Капустапульта",
-        "imagePath": "assets/images/plantsImages/Cabbage-pult1.webp",
+        "imagePath": "Cabbage-pult1.webp",
         "description": "Капустопульты – швыряют капусту во врага.",
         "stats": [
             {
@@ -704,7 +704,7 @@
     {
         "title": "Цветочный горшок",
         "imagePath": "Цветочный горшок – позволяет вам сажать растения на крыше.",
-        "description": "assets/images/plantsImages/Gorshok.PNG.webp",
+        "description": "Gorshok.webp",
         "stats": [
             {
                 "name": "Особенность",
@@ -717,7 +717,7 @@
     },
     {
         "title": "Зернопульта",
-        "imagePath": "assets/images/plantsImages/Kelt-pult.webp",
+        "imagePath": "Kelt-pult.webp",
         "description": "Зернопульта – швыряет кукурузные зёрна и масло в зомби.",
         "stats": [
             {
@@ -741,7 +741,7 @@
     },
     {
         "title": "Кофейное Зерно",
-        "imagePath": "assets/images/plantsImages/Coffee_Bean2.webp",
+        "imagePath": "Coffee_Bean2.webp",
         "description": "Кофейное зерно – используйте кофейные зёрна, чтобы разбудить спящие грибы.",
         "stats": [
             {
@@ -760,7 +760,7 @@
     },
     {
         "title": "Чеснок",
-        "imagePath": "assets/images/plantsImages/Garlic1.webp",
+        "imagePath": "Garlic1.webp",
         "description": "Чеснок - прогоняет зомби на другие линии.",
         "stats": [
             {
@@ -784,7 +784,7 @@
     },
     {
         "title": "Зонтичный Лист",
-        "imagePath": "assets/images/plantsImages/Umbrella_Leaf.webp",
+        "imagePath": "Umbrella_Leaf.webp",
         "description": "Пальмы-Зонтики - защищают ближайшие растения от Катапульт и Зомби на Тарзанках.",
         "stats": [
             {
@@ -798,7 +798,7 @@
     },
     {
         "title": "Колендула",
-        "imagePath": "assets/images/plantsImages/Marigold1.webp",
+        "imagePath": "Marigold1.webp",
         "description": "Колендулы - дают вам золотые и серебряные монеты.",
         "stats": [
             {
@@ -812,7 +812,7 @@
     },
     {
         "title": "Арбузопульта",
-        "imagePath": "assets/images/plantsImages/Melon-pult1.webp",
+        "imagePath": "Melon-pult1.webp",
         "description": "Арбузопульты - наносят серьёзный урон группе зомби.",
         "stats": [
             {
@@ -836,7 +836,7 @@
     },
     {
         "title": "Горохомёт",
-        "imagePath": "assets/images/plantsImages/Gatling_Pea1.webp",
+        "imagePath": "Gatling_Pea1.webp",
         "description": "Горохомёт - стреляет четырьмя горошинами за раз.",
         "stats": [
             {
@@ -860,7 +860,7 @@
     },
     {
         "title": "Двойной подсолнух",
-        "imagePath": "assets/images/plantsImages/TwinSunflowerPlant.webp",
+        "imagePath": "TwinSunflowerPlant.webp",
         "description": "Двойные подсолнухи - дают в два раза больше солнца, чем обычный Подсолнух.",
         "stats": [
             {
@@ -879,7 +879,7 @@
     },
     {
         "title": "Мракогриб",
-        "imagePath": "assets/images/plantsImages/Gloom-shroom2.webp",
+        "imagePath": "Gloom-shroom2.webp",
         "description": "Мракогрибы - выпускают тяжёлый дым в ближнюю зону вокруг себя.",
         "stats": [
             {
@@ -903,7 +903,7 @@
     },
     {
         "title": "Кошкамыши",
-        "imagePath": "assets/images/plantsImages/Cattail2.webp",
+        "imagePath": "Cattail2.webp",
         "description": "Кошкокамыши - могут атаковать любую линию и Зомби на Шариках.",
         "stats": [
             {
@@ -917,7 +917,7 @@
     },
     {
         "title": "Морозный Арбуз",
-        "imagePath": "assets/images/plantsImages/Winter_Melon1.webp",
+        "imagePath": "Winter_Melon1.webp",
         "description": "Морозный арбуз - наносят большой урон и замедляют группу зомби.",
         "stats": [
             {
@@ -947,7 +947,7 @@
     {
         "title": "Золотой Магнит",
         "imagePath": "Золотой магнит - собирают для вас монеты и алмазы.",
-        "description": "assets/images/plantsImages/Gold_Magnet2.webp",
+        "description": "Gold_Magnet2.webp",
         "stats": [
             {
                 "name": "Особенность",
@@ -965,7 +965,7 @@
     },
     {
         "title": "Шипокамень",
-        "imagePath": "assets/images/plantsImages/Spikerock2.webp",
+        "imagePath": "Spikerock2.webp",
         "description": "Каменные колючки - могут пробить много шин и сильнее ранят зомби, наступивших на них.",
         "stats": [
             {
@@ -995,7 +995,7 @@
     {
         "title": "Кукурузная Пушка",
         "imagePath": "Кукурузная Пушка - нажмите на нё, чтобы запустить смертельное ядро из кукурузы.",
-        "description": "assets/images/plantsImages/Cob_Cannon2.webp",
+        "description": "Cob_Cannon2.webp",
         "stats": [
             {
                 "name": "Урон",
@@ -1023,7 +1023,7 @@
     },
     {
         "title": "Подражатель",
-        "imagePath": "assets/images/plantsImages/Imitater1.webp",
+        "imagePath": "Imitater1.webp",
         "description": "Подражатель - Через подражателей вы можете использовать две копии одного и того же растения на одном уровне! Он представляет из себя картофель серого цвета, с чёрным беретом, как у мима",
         "stats": [
             {
