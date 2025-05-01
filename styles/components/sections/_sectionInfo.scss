@@ -1,0 +1,18 @@
+.sectionInfo {
+    width: 100%;
+    padding: 2vh 10vw;
+
+    .content {
+        padding: 20px;
+
+        border: 15px solid #822817;
+        border-radius: 20px;
+        background-color: #fec476;
+
+        &_text {
+            font-family: 'Playskool', sans-serif;
+            font-size: 30px;
+            color: #822817;
+        }
+    }
+}
