@@ -1,9 +1,17 @@
 :root {
   --primary-color: #822817;
-  --panel-background-color: #fec476;
+  --plant-panel-background-color: #fec476;
+  --zombie-panel-background-color: #b9aed8;
   --main-background-color: #b6cbbd;
   --card-plant-background-color: #a44b13;
   --font-header-plant-card-color: #e79b23;
+  --card-zombie-background-color: #5c617f;
+  --description-font-color: #071127;
+  --plant-card-content-font-color: #94370c;
+  --font-header-zombie-card-color: #03a31c;
+  --font-main-zombie-color: #6c322f;
+  --font-description-zombie-color: #5c4033;
+  --font-stat-color: #d62828;
 }
 
 :root {
@@ -18,7 +26,7 @@
   padding: 20px;
   border: 15px solid var(--primary-color);
   border-radius: 20px;
-  background-color: var(--panel-background-color);
+  background-color: var(--plant-panel-background-color);
 }
 .sectionInfo .content_text {
   font-size: 30px;
@@ -40,7 +48,9 @@
   padding: 2vh 10vw;
 }
 .sectionZombiesList > .content {
-  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
 }
 
 .header {
@@ -113,9 +123,9 @@
   gap: 16px;
   flex-basis: 100%;
   justify-content: space-between;
-  background-color: var(--panel-background-color);
+  background-color: var(--plant-panel-background-color);
   font-size: 24px;
-  color: #94370c;
+  color: var(--plant-card-content-font-color);
 }
 .plantCard_content_infoBlock {
   display: flex;
@@ -123,14 +133,14 @@
   flex-direction: column;
 }
 .plantCard_content_infoBlock .description {
-  color: #071127;
+  color: var(--description-font-color);
 }
 .plantCard_content_infoBlock .stats {
   display: flex;
   flex-direction: column;
 }
 .plantCard_content_infoBlock .stats .stat_description {
-  color: #db3214;
+  color: var(--font-stat-color);
 }
 .plantCard_content_footer {
   display: flex;
@@ -138,7 +148,67 @@
   align-items: center;
 }
 .plantCard_content_footer .info-value {
-  color: #db3214;
+  color: var(--font-stat-color);
+}
+
+.zombieCard {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 12px;
+  background-color: var(--card-zombie-background-color);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  transition: all 0.3s ease-in-out;
+}
+.zombieCard:hover {
+  scale: 1.02;
+}
+.zombieCard_header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--font-header-zombie-card-color);
+}
+.zombieCard_header_image {
+  filter: drop-shadow(rgba(70, 70, 70, 0.5) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset);
+}
+.zombieCard_content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex-basis: 100%;
+  justify-content: space-between;
+  background-color: var(--zombie-panel-background-color);
+  font-size: 24px;
+  color: var(--font-main-zombie-color);
+}
+.zombieCard_content_infoBlock {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+.zombieCard_content_infoBlock .description {
+  color: var(--description-font-color);
+}
+.zombieCard_content_infoBlock .stats {
+  display: flex;
+  flex-direction: column;
+}
+.zombieCard_content_infoBlock .stats .stat_description {
+  color: var(--font-stat-color);
+}
+.zombieCard_content_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.zombieCard_content_footer .info-value {
+  color: var(--font-stat-color);
 }
 
 * {

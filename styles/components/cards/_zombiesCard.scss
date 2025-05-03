@@ -1,4 +1,4 @@
-.plantCard {
+.zombieCard {
     padding: 20px;
 
     display: flex;
@@ -6,7 +6,7 @@
     gap: 12px;
 
     border-radius: 12px;
-    background-color: var(--card-plant-background-color);
+    background-color: var(--card-zombie-background-color);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
         rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 
@@ -24,11 +24,11 @@
 
         font-size: 32px;
         font-weight: 600;
-        color: var(--font-header-plant-card-color);
+        color: var(--font-header-zombie-card-color);
 
         &_image {
             filter: drop-shadow(
-                rgb(204, 219, 232) 3px 3px 6px 0px inset,
+                rgba(70, 70, 70, 0.5) 3px 3px 6px 0px inset,
                 rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset
             );
         }
@@ -43,10 +43,10 @@
         flex-basis: 100%;
         justify-content: space-between;
 
-        background-color: var(--plant-panel-background-color);
+        background-color: var(--zombie-panel-background-color);
 
         font-size: 24px;
-        color: var(--plant-card-content-font-color);
+        color: var(--font-main-zombie-color);
 
         &_infoBlock {
             display: flex;
