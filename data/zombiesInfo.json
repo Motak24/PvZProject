@@ -1,7 +1,7 @@
 [
     {
         "title": "Зомби",
-        "imagePath": "assets/images/zombiesImages/Zombie1.webp",
+        "imagePath": "Zombie1.webp",
         "description": "Мертвый чувак, любящий сад и поедающий мозги.",
         "stats": [
             {
@@ -14,7 +14,7 @@
     },
     {
         "title": "Зомби c флагом",
-        "imagePath": "assets/images/zombiesImages/Flag_Zombie2.webp",
+        "imagePath": "Flag_Zombie2.webp",
         "description": "Настоящий лидер в линейке.",
         "stats": [
             {
@@ -27,7 +27,7 @@
     },
     {
         "title": "Конусоголовый зомби",
-        "imagePath": "assets/images/zombiesImages/Conehead_Zombie2.webp",
+        "imagePath": "Conehead_Zombie2.webp",
         "description": "Его Конус защищает его от повреждений.",
         "stats": [
             {
@@ -40,7 +40,7 @@
     },
     {
         "title": "Зомби с ведром",
-        "imagePath": "assets/images/zombiesImages/Buckethead_Zombie2.webp",
+        "imagePath": "Buckethead_Zombie2.webp",
         "description": "Его прочное ведро защищает его лучше.",
         "stats": [
             {
@@ -57,7 +57,7 @@
     },
     {
         "title": "Зомби с Шестом",
-        "imagePath": "assets/images/zombiesImages/Pole_Vaulting_Zombie2.webp",
+        "imagePath": "Pole_Vaulting_Zombie2.webp",
         "description": "Зомби с шестом - этот зомби перепрыгивает любое первое встретившееся растение с помощью шеста для прыжков в высоту, кроме Высокого стенореха.",
         "stats": [
             {
@@ -74,7 +74,7 @@
     },
     {
         "title": "Зомби с Газетой",
-        "imagePath": "assets/images/zombiesImages/Newspaper_Zombie2.webp",
+        "imagePath": "Newspaper_Zombie2.webp",
         "description": "Газетный зомби - безумен. По-настоящему безумен. Он как раз собирался закончить раздел комиксов и перейти к спортивным новостям, но потом его газету уничтожили. Поэтому он поступил логично: Свихнулся.",
         "stats": [
             {
@@ -91,7 +91,7 @@
     },
     {
         "title": "Зомби с Дверью",
-        "imagePath": "assets/images/zombiesImages/Screen_Door_Zombie2.webp",
+        "imagePath": "Screen_Door_Zombie2.webp",
         "description": "Зомби с сетчатой дверью - представляет собой обычного зомби, который носит при себе сетчатую дверь и использует её как щит.",
         "stats": [
             {
@@ -112,7 +112,7 @@
     },
     {
         "title": "Зомби Футболист",
-        "imagePath": "assets/images/zombiesImages/Football_Zombie2.webp",
+        "imagePath": "Football_Zombie2.webp",
         "description": "Зомби футболист - очень быстрый и хорошо защищённый зомби в форме игрока в американский футбол.",
         "stats": [
             {
@@ -129,7 +129,7 @@
     },
     {
         "title": "Зомби Танцор",
-        "imagePath": "assets/images/zombiesImages/New-Dancing-zombie2.webp",
+        "imagePath": "New-Dancing-zombie2.webp",
         "description": "Зомби танцор - этот стильный танцующий мертвец, является пародией на образ Майкла Джексона в его видеоклипе «Триллер», где Джексон изображал зомби. Может «призывать» четырёх Подтанцовщиков вокруг себя.",
         "stats": [
             {
@@ -146,7 +146,7 @@
     },
     {
         "title": "Зомби Поддержки",
-        "imagePath": "assets/images/zombiesImages/Backup_Dancer1.webp",
+        "imagePath": "Backup_Dancer1.webp",
         "description": "Подтанцовщик — этот зомби помогает Зомби танцору в его танцевальном номере.",
         "stats": [
             {
@@ -163,7 +163,7 @@
     },
     {
         "title": "Зомби с Уткой",
-        "imagePath": "assets/images/zombiesImages/Ducky_Tube_Zombie2.webp",
+        "imagePath": "Ducky_Tube_Zombie2.webp",
         "description": "Зомби с уткой - похож на обычного зомби, но при других набегах на дома в поисках мозгов, нашёл плавательный круг в виде жёлтой уточки. Могут встречаться особи и с конусами или вёдрами, встречается на уровнях с бассейном.",
         "stats": [
             {
@@ -184,7 +184,7 @@
     },
     {
         "title": "Зомби-Водолаз",
-        "imagePath": "assets/images/zombiesImages/Snorkel_Zombie1.webp",
+        "imagePath": "Snorkel_Zombie1.webp",
         "description": "Зомби с трубкой - зомби, нашедший ласты, нарукавники и маску для плаванья. Так как зомби не дышат, ему не нужна плавательная трубка, но он думает, что это модно.",
         "stats": [
             {
@@ -205,7 +205,7 @@
     },
     {
         "title": "Зомби на Катке",
-        "imagePath": "assets/images/zombiesImages/Zomboni2.webp",
+        "imagePath": "Zomboni2.webp",
         "description": "Зомбони - зомби на машине для полировки катков.",
         "stats": [
             {
@@ -226,7 +226,7 @@
     },
     {
         "title": "Зомби на Бобслее",
-        "imagePath": "assets/images/zombiesImages/Zombie_Bobsled_Team2.webp",
+        "imagePath": "Zombie_Bobsled_Team2.webp",
         "description": "Зомби на бобслее - четыре мертвеца-спортсмена на бобе.",
         "stats": [
             {
@@ -251,7 +251,7 @@
     },
     {
         "title": "Зомби-наездник на Дельфине",
-        "imagePath": "assets/images/zombiesImages/Dolphin_Rider_Zombie2.webp",
+        "imagePath": "Dolphin_Rider_Zombie2.webp",
         "description": "Зомби на дельфине - зомби, ездящий на дельфине. Появляется только в бассейне.",
         "stats": [
             {
@@ -276,7 +276,7 @@
     },
     {
         "title": "Зомби с Чёртиком из Табакерки",
-        "imagePath": "assets/images/zombiesImages/Jack-in-the-Box_Zombie2.webp",
+        "imagePath": "Jack-in-the-Box_Zombie2.webp",
         "description": "Зомби с коробкой - мёртвый псих-камикадзе. Пока зомби крутит ручку, коробка воспроизводит мелодию, а затем через (примерно) 17 секунд из неё выскакивает клоун на пружине.",
         "stats": [
             {
@@ -297,7 +297,7 @@
     },
     {
         "title": "Зомби на воздушном шаре",
-        "imagePath": "assets/images/zombiesImages/Balloon_Zombie2.webp",
+        "imagePath": "Balloon_Zombie2.webp",
         "description": "Зомби на шарике - большой мертвый ребенок, заполучивший воздушный шарик.",
         "stats": [
             {
@@ -318,7 +318,7 @@
     },
     {
         "title": "Зомби Копатель",
-        "imagePath": "assets/images/zombiesImages/Digger_Zombie2.webp",
+        "imagePath": "Digger_Zombie2.webp",
         "description": "Зомби-копатель - мёртвый шахтёр, проделывает подкоп и разоряет тылы, начиная двигаться в противоположную сторону.",
         "stats": [
             {
@@ -339,7 +339,7 @@
     },
     {
         "title": "Зомби-попрыгун",
-        "imagePath": "assets/images/zombiesImages/Pogo_Zombie2.webp",
+        "imagePath": "Pogo_Zombie2.webp",
         "description": "Зомби-попрыгун - Одет в рваную чёрную футболку, имеет коричневую бородку, очки, на ноги надеты рваные синие джинсы и чёрные кроссовки, на правой руке есть татуировка.",
         "stats": [
             {
@@ -360,7 +360,7 @@
     },
     {
         "title": "Зомби Йети",
-        "imagePath": "assets/images/zombiesImages/Zombie_Yeti2.webp",
+        "imagePath": "Zombie_Yeti2.webp",
         "description": "Зомби Йети - мертвый снежный человек, встречающиеся только при повторном прохождении на уровне 4-10, на котором полностью темно и освещается только грозовыми молниями. Вообще-то, его можно встретить в любой игре со стандартными правилами — просто шанс на встречу крайне мал — порядка 8 %.",
         "stats": [
             {
@@ -377,7 +377,7 @@
     },
     {
         "title": "Зомби на Тарзанке",
-        "imagePath": "assets/images/zombiesImages/Bungee_Zombie2.webp",
+        "imagePath": "Bungee_Zombie2.webp",
         "description": "Зомби на тарзанке - зомби, похищающий растения. Он так же спускает обычных зомби на крышу.",
         "stats": [
             {
@@ -398,7 +398,7 @@
     },
     {
         "title": "Зомби с лестницей",
-        "imagePath": "assets/images/zombiesImages/Ladder_Zombie2.webp",
+        "imagePath": "Ladder_Zombie2.webp",
         "description": "Зомби с лестницей - у этого зомби есть молоток, но Магнит-гриб притянуть его не может, возможно, что молоток крепко прикреплен к штанам этого зомби. Или это просто не предусмотрено.",
         "stats": [
             {
@@ -423,7 +423,7 @@
     },
     {
         "title": "Зомби на катапульте",
-        "imagePath": "assets/images/zombiesImages/Catapult_Zombie2.webp",
+        "imagePath": "Catapult_Zombie2.webp",
         "description": "Зомби на катапульте: мертвец, ездящий на машине, которая метает баскетбольные мячи.",
         "stats": [
             {
@@ -444,7 +444,7 @@
     },
     {
         "title": "Гаргантюа",
-        "imagePath": "assets/images/zombiesImages/Gargantuar2.webp",
+        "imagePath": "Gargantuar2.webp",
         "description": "Гаргантюа - гигантский зомби, раздавливающий любые растения. В качестве оружия использует дорожные знаки, телеграфные столбы и других зомби. Если у него окажется половина здоровья, а до конца линии больше половины пути, швыряет Чертёнка.",
         "stats": [
             {
@@ -465,7 +465,7 @@
     },
     {
         "title": "Чертёнок",
-        "imagePath": "assets/images/zombiesImages/Imp2.webp",
+        "imagePath": "Imp2.webp",
         "description": "Чертёнок - маленький зомби, которого швыряет Гаргантюа при сильных ранениях, отдельно не появляется за исключением уровня Я Зомби в ребусах. В бесконечным выживании появиться Гига Зомбенок запущенный Гига-Гаргантюа. Но ничем другим он от обычного не отличается.",
         "stats": [
             {
@@ -478,7 +478,7 @@
     },
     {
         "title": "Доктор Эдгар Джордж Зомбосс",
-        "imagePath": "assets/images/zombiesImages/Dr._Zomboss2.webp",
+        "imagePath": "Dr._Zomboss2.webp",
         "description": "Доктор Зомбосс управляет всем.",
         "stats": [
             {
