@@ -1,11 +1,24 @@
 // Variables
 @use './variables/index';
 
+// Sections
+@use './components/sections/sectionInfo';
+@use './components/sections/sectionPlantsList';
+@use './components/sections/sectionZombiesList';
+
+// Header
+@use './components/header';
+
+// Cards
+@use './components/cards/plantsCard';
+
 * {
     padding: 0;
     margin: 0;
 
     box-sizing: border-box;
+
+    font-family: var(--main-font);
 }
 
 body {

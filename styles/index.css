@@ -1,13 +1,151 @@
 :root {
   --primary-color: #822817;
-  --card-background-color: #fec476;
+  --panel-background-color: #fec476;
   --main-background-color: #b6cbbd;
+  --card-plant-background-color: #a44b13;
+  --font-header-plant-card-color: #e79b23;
+}
+
+:root {
+  --main-font: "Playskool", sans-serif;
+}
+
+.sectionInfo {
+  width: 100%;
+  padding: 2vh 10vw;
+}
+.sectionInfo .content {
+  padding: 20px;
+  border: 15px solid var(--primary-color);
+  border-radius: 20px;
+  background-color: var(--panel-background-color);
+}
+.sectionInfo .content_text {
+  font-size: 30px;
+  color: var(--primary-color);
+}
+
+.sectionPlantsList {
+  width: 100%;
+  padding: 2vh 10vw;
+}
+.sectionPlantsList .content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.sectionZombiesList {
+  width: 100%;
+  padding: 2vh 10vw;
+}
+.sectionZombiesList > .content {
+  padding: 20px;
+}
+
+.header {
+  padding: 2vh 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/images/headerBackground.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header .logos {
+  width: 100%;
+}
+.header .logos .logo {
+  width: 100%;
+}
+.header .logos .logo__small {
+  display: none;
+}
+.header_content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_content_subtitle {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Opsilion", sans-serif;
+  line-height: 120%;
+  color: #c6c6bb;
+  text-shadow: -4px -4px 0 black, 4px -4px 0 black, -4px 4px 0 black, 4px 4px 0 black, -4px 0px 0 black, 4px 0px 0 black, 0px -4px 0 black, 0px 4px 0 black;
+}
+.header_content_subtitle__green {
+  color: #a3d61e;
+}
+
+.plantCard {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 12px;
+  background-color: var(--card-plant-background-color);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  transition: all 0.3s ease-in-out;
+}
+.plantCard:hover {
+  scale: 1.02;
+}
+.plantCard_header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--font-header-plant-card-color);
+}
+.plantCard_header_image {
+  filter: drop-shadow(rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset);
+}
+.plantCard_content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex-basis: 100%;
+  justify-content: space-between;
+  background-color: var(--panel-background-color);
+  font-size: 24px;
+  color: #94370c;
+}
+.plantCard_content_infoBlock {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+.plantCard_content_infoBlock .description {
+  color: #071127;
+}
+.plantCard_content_infoBlock .stats {
+  display: flex;
+  flex-direction: column;
+}
+.plantCard_content_infoBlock .stats .stat_description {
+  color: #db3214;
+}
+.plantCard_content_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.plantCard_content_footer .info-value {
+  color: #db3214;
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: var(--main-font);
 }
 
 body {

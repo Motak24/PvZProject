@@ -1,0 +1,80 @@
+.plantCard {
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    border-radius: 12px;
+    background-color: var(--card-plant-background-color);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+        rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        scale: 1.02;
+    }
+
+    &_header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-shrink: 0;
+
+        font-size: 32px;
+        font-weight: 600;
+        color: var(--font-header-plant-card-color);
+
+        &_image {
+            filter: drop-shadow(
+                rgb(204, 219, 232) 3px 3px 6px 0px inset,
+                rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset
+            );
+        }
+    }
+
+    &_content {
+        padding: 10px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        flex-basis: 100%;
+        justify-content: space-between;
+
+        background-color: var(--panel-background-color);
+
+        font-size: 24px;
+        color: #94370c;
+
+        &_infoBlock {
+            display: flex;
+            gap: 12px;
+            flex-direction: column;
+
+            .description {
+                color: #071127;
+            }
+
+            .stats {
+                display: flex;
+                flex-direction: column;
+
+                .stat_description {
+                    color: #db3214;
+                }
+            }
+        }
+
+        &_footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .info-value {
+                color: #db3214;
+            }
+        }
+    }
+}

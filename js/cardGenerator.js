@@ -7,7 +7,7 @@ const imagesPlantsBaseFolderPath = '/assets/images/plantsImages/';
 const imagesZombiesBaseFolderPath = '/assets/images/zombiesImages/';
 
 const plantsDataPath = '/data/plantsInfo.json';
-const zombiesDataPah = '/data/zombiesInfo.json';
+const zombiesDataPath = '/data/zombiesInfo.json';
 
 async function fetchJSON(dataPath) {
     let response = await fetch(dataPath);
@@ -86,5 +86,69 @@ fetchJSON(plantsDataPath).then(result =>
         cardContent.appendChild(plantCardFooter);
 
         plantsContainer.appendChild(card);
+    }),
+);
+
+fetchJSON(zombiesDataPath).then(result =>
+    result.forEach(zombie => {
+        const card = document.createElement('div');
+        card.className = 'zombieCard';
+
+        const cardHeader = document.createElement('div');
+        cardHeader.className = 'zombieCard_header';
+        const image = document.createElement('img');
+        image.className = 'zombieCard_header_image';
+        image.src = imagesZombiesBaseFolderPath + zombie.imagePath;
+        image.alt = zombie.title;
+        const title = document.createElement('h4');
+        title.innerHTML = zombie.title;
+        cardHeader.appendChild(image);
+        cardHeader.appendChild(title);
+        card.appendChild(cardHeader);
+
+        const cardContent = document.createElement('div');
+        cardContent.className = 'zombieCard_content';
+        card.appendChild(cardContent);
+
+        const infoBlock = document.createElement('div');
+        infoBlock.className = 'zombieCard_content_infoBlock';
+        const description = document.createElement('p');
+        description.className = 'description';
+        description.innerHTML = zombie.description;
+        const stats = document.createElement('div');
+        stats.className = 'stats';
+        zombie.stats.forEach(stat => {
+            const statField = document.createElement('p');
+            statField.className = 'stat';
+            statField.innerHTML = stat.name + ': ';
+            const value = document.createElement('span');
+            value.className = 'stat_description';
+            value.innerHTML = stat.value;
+            statField.appendChild(value);
+            stats.appendChild(statField);
+        });
+        const biography = document.createElement('p');
+        biography.className = 'biography';
+        biography.innerHTML = zombie.bio;
+        cardContent.appendChild(infoBlock);
+        infoBlock.appendChild(description);
+        infoBlock.appendChild(stats);
+        infoBlock.appendChild(biography);
+
+        const zombieCardFooter = document.createElement('div');
+        zombieCardFooter.className = 'zombieCard_content_footer';
+
+        const speed = document.createElement('p');
+        speed.className = 'speed';
+        speed.innerHTML = 'Скорость: ';
+        const speedValue = document.createElement('span');
+        speedValue.className = 'info_value';
+        speedValue.innerHTML = zombie.speed;
+        speed.appendChild(speedValue);
+
+        zombieCardFooter.appendChild(speed);
+        cardContent.appendChild(zombieCardFooter);
+
+        zombiesContainer.appendChild(card);
     }),
 );

@@ -2,7 +2,9 @@
     width: 100%;
     padding: 2vh 10vw;
 
-    > .content {
-        padding: 20px;
+    .content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
     }
 }

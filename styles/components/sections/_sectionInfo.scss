@@ -5,14 +5,13 @@
     .content {
         padding: 20px;
 
-        border: 15px solid #822817;
+        border: 15px solid var(--primary-color);
         border-radius: 20px;
-        background-color: #fec476;
+        background-color: var(--panel-background-color);
 
         &_text {
-            font-family: 'Playskool', sans-serif;
             font-size: 30px;
-            color: #822817;
+            color: var(--primary-color);
         }
     }
 }
