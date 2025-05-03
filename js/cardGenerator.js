@@ -62,6 +62,29 @@ fetchJSON(plantsDataPath).then(result =>
         infoBlock.appendChild(stats);
         infoBlock.appendChild(biography);
 
+        const plantCardFooter = document.createElement('div');
+        plantCardFooter.className = 'plantCard_content_footer';
+
+        const price = document.createElement('p');
+        price.className = 'price';
+        price.innerHTML = 'Цена: ';
+        const priceValue = document.createElement('span');
+        priceValue.className = 'info_value';
+        priceValue.innerHTML = plant.price;
+        price.appendChild(priceValue);
+
+        const reload = document.createElement('p');
+        reload.className = 'reload';
+        reload.innerHTML = 'Зарядка: ';
+        const reloadValue = document.createElement('span');
+        reloadValue.className = 'info_value';
+        reloadValue.innerHTML = plant.reload;
+        reload.appendChild(reloadValue);
+
+        plantCardFooter.appendChild(price);
+        plantCardFooter.appendChild(reload);
+        cardContent.appendChild(plantCardFooter);
+
         plantsContainer.appendChild(card);
     }),
 );
