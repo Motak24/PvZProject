@@ -4,11 +4,11 @@
   --zombie-panel-background-color: #b9aed8;
   --main-background-color: #b6cbbd;
   --card-plant-background-color: #a44b13;
-  --font-header-plant-card-color: #e79b23;
   --card-zombie-background-color: #5c617f;
+  --font-header-plant-card-color: #e79b23;
+  --font-header-zombie-card-color: #03a31c;
   --description-font-color: #071127;
   --plant-card-content-font-color: #94370c;
-  --font-header-zombie-card-color: #03a31c;
   --font-main-zombie-color: #6c322f;
   --font-description-zombie-color: #5c4033;
   --font-stat-color: #d62828;
@@ -19,8 +19,52 @@
 }
 
 .sectionInfo {
-  width: 100%;
-  padding: 2vh 10vw;
+  width: 100vw;
+  padding: calc(5vh + 100px) 10vw 5vh 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 32px;
+  background-image: url("../../assets/images/headerBackground.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sectionInfo_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sectionInfo_header_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Opsilion", sans-serif;
+  line-height: 120%;
+  color: #c6c6bb;
+  text-shadow: -4px -4px 0 black, 4px -4px 0 black, -4px 4px 0 black, 4px 4px 0 black, -4px 0px 0 black, 4px 0px 0 black, 0px -4px 0 black, 0px 4px 0 black;
+}
+.sectionInfo_header_text .sectionInfo_header_subtext {
+  font-size: 36px;
+}
+.sectionInfo_header_text .sectionInfo_header_subtext__green {
+  color: #a3d61e;
 }
 .sectionInfo .content {
   padding: 20px;
@@ -34,8 +78,27 @@
 }
 
 .sectionPlantsList {
-  width: 100%;
-  padding: 2vh 10vw;
+  width: 100vw;
+  padding: 5vh 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 32px;
+}
+.sectionPlantsList_title {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Opsilion", sans-serif;
+  line-height: 120%;
+  color: #a3d61e;
+  text-shadow: -4px -4px 0 black, 4px -4px 0 black, -4px 4px 0 black, 4px 4px 0 black, -4px 0px 0 black, 4px 0px 0 black, 0px -4px 0 black, 0px 4px 0 black;
 }
 .sectionPlantsList .content {
   display: grid;
@@ -44,108 +107,202 @@
 }
 
 .sectionZombiesList {
-  width: 100%;
-  padding: 2vh 10vw;
+  width: 100vw;
+  padding: 5vh 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 32px;
 }
-.sectionZombiesList > .content {
+.sectionZombiesList_title {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Opsilion", sans-serif;
+  line-height: 120%;
+  color: #909088;
+  text-shadow: -4px -4px 0 black, 4px -4px 0 black, -4px 4px 0 black, 4px 4px 0 black, -4px 0px 0 black, 4px 0px 0 black, 0px -4px 0 black, 0px 4px 0 black;
+}
+.sectionZombiesList .content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
 }
 
 .header {
-  padding: 2vh 10vw;
+  height: 100px;
+  padding: 0 10vw;
+  position: fixed;
+  inset: 0;
+  z-index: 1001;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url("../../assets/images/headerBackground.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: var(--main-background-color);
 }
-.header .logos {
-  width: 100%;
+.header .logo {
+  height: 60px;
 }
-.header .logos .logo {
-  width: 100%;
-}
-.header .logos .logo__small {
-  display: none;
-}
-.header_content {
-  width: 100%;
+.header .navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 32px;
 }
-.header_content_subtitle {
-  font-size: 32px;
+.header .navigation ul li {
+  list-style-type: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.header .navigation ul li:hover {
+  scale: 1.1;
+}
+.header .navigation ul li .link {
+  font-size: 24px;
   font-weight: bold;
   font-family: "Opsilion", sans-serif;
   line-height: 120%;
-  color: #c6c6bb;
-  text-shadow: -4px -4px 0 black, 4px -4px 0 black, -4px 4px 0 black, 4px 4px 0 black, -4px 0px 0 black, 4px 0px 0 black, 0px -4px 0 black, 0px 4px 0 black;
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black, -2px 0px 0 black, 2px 0px 0 black, 0px -2px 0 black, 0px 2px 0 black;
 }
-.header_content_subtitle__green {
+.header .navigation ul li .link__plants {
   color: #a3d61e;
+}
+.header .navigation ul li .link__zombies {
+  color: #909088;
 }
 
 .plantCard {
   padding: 20px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  gap: 12px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
   border-radius: 12px;
+  background-image: url("/assets/images/plantCardTexture.png");
+  background-size: cover;
   background-color: var(--card-plant-background-color);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 .plantCard:hover {
-  scale: 1.02;
+  -webkit-transform: rotateY(15deg);
+          transform: rotateY(15deg);
+}
+.plantCard-wrapper {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  background-image: radial-gradient(circle at right bottom, transparent 12px, var(--main-background-color) 12px), radial-gradient(circle at right bottom, transparent 12px, var(--main-background-color) 12px);
+  background-position: -12px 108px, 108px -12px;
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
 }
 .plantCard_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  gap: 12px;
-  flex-shrink: 0;
-  font-size: 32px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  font-size: 40px;
   font-weight: 600;
   color: var(--font-header-plant-card-color);
 }
-.plantCard_header_image {
-  filter: drop-shadow(rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset);
+.plantCard_header_image-wrapper {
+  height: 96px;
+  position: relative;
+  top: -8px;
+  left: -8px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-color: var(--main-background-color);
+  outline: 12px solid var(--main-background-color);
+  border-bottom-right-radius: 12px;
+}
+.plantCard_header .title {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  text-align: center;
 }
 .plantCard_content {
   padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 16px;
-  flex-basis: 100%;
-  justify-content: space-between;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: var(--plant-panel-background-color);
+  border-radius: 12px;
   font-size: 24px;
   color: var(--plant-card-content-font-color);
 }
 .plantCard_content_infoBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 12px;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .plantCard_content_infoBlock .description {
   color: var(--description-font-color);
 }
 .plantCard_content_infoBlock .stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .plantCard_content_infoBlock .stats .stat_description {
   color: var(--font-stat-color);
 }
 .plantCard_content_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .plantCard_content_footer .info-value {
   color: var(--font-stat-color);
@@ -153,59 +310,120 @@
 
 .zombieCard {
   padding: 20px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  gap: 12px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
   border-radius: 12px;
+  background-image: url("/assets/images/zombieCardTexture.png");
+  background-size: cover;
   background-color: var(--card-zombie-background-color);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 .zombieCard:hover {
-  scale: 1.02;
+  -webkit-transform: rotateY(15deg);
+          transform: rotateY(15deg);
+}
+.zombieCard-wrapper {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  background-image: radial-gradient(circle at right bottom, transparent 12px, var(--main-background-color) 12px), radial-gradient(circle at right bottom, transparent 12px, var(--main-background-color) 12px);
+  background-position: -12px 108px, 108px -12px;
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
 }
 .zombieCard_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  gap: 12px;
-  flex-shrink: 0;
-  font-size: 32px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  font-size: 40px;
   font-weight: 600;
   color: var(--font-header-zombie-card-color);
 }
-.zombieCard_header_image {
-  filter: drop-shadow(rgba(70, 70, 70, 0.5) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset);
+.zombieCard_header_image-wrapper {
+  height: 96px;
+  position: relative;
+  top: -8px;
+  left: -8px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-color: var(--main-background-color);
+  outline: 12px solid var(--main-background-color);
+  border-bottom-right-radius: 12px;
+}
+.zombieCard_header .title {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  text-align: center;
 }
 .zombieCard_content {
   padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 16px;
-  flex-basis: 100%;
-  justify-content: space-between;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: var(--zombie-panel-background-color);
   font-size: 24px;
   color: var(--font-main-zombie-color);
 }
 .zombieCard_content_infoBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 12px;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .zombieCard_content_infoBlock .description {
   color: var(--description-font-color);
 }
 .zombieCard_content_infoBlock .stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .zombieCard_content_infoBlock .stats .stat_description {
   color: var(--font-stat-color);
 }
 .zombieCard_content_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .zombieCard_content_footer .info-value {
   color: var(--font-stat-color);
@@ -214,7 +432,8 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: var(--main-font);
 }
 
@@ -223,4 +442,8 @@ body {
   height: 100vh;
   overflow-x: hidden;
   background-color: var(--main-background-color);
-}/*# sourceMappingURL=index.css.map */
+}
+
+a {
+  text-decoration: none;
+}

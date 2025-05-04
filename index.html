@@ -4,43 +4,48 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Plants of Zombie</title>
-        <link rel="stylesheet" href="./styles/index.css" />
+        <link rel="stylesheet" href="/styles/index.css" />
         <link rel="stylesheet" href="./assets/fonts/font.css" />
     </head>
     <body>
         <header class="header">
-            <div class="logos">
-                <img
-                    class="logo logo__small"
-                    src="./assets/icons/logoSmall.svg"
-                    alt="Логотип"
-                    draggable="false"
-                />
+            <a href="#">
                 <img
                     class="logo"
                     src="./assets/icons/logo.svg"
                     alt="Логотип"
                     draggable="false"
                 />
-            </div>
-            <div class="header_content">
-                <img
-                    class="header_content_sublogo"
-                    src="./assets/icons/almanac.svg"
-                    alt="Альманах"
-                    draggable="false"
-                />
-                <h1 class="header_content_subtitle">
-                    АЛЬМАНАХ САДОВОДА –
-                    <span
-                        class="header_content_subtitle header_content_subtitle__green"
-                        >СПИСОК РАСТЕНИЙ И ЗОМБИ</span
-                    >
-                </h1>
-            </div>
+            </a>
+            <nav class="navigation">
+                <ul>
+                    <li>
+                        <a href="#plants" class="link link__plants">РАСТЕНИЯ</a>
+                    </li>
+                    <li>
+                        <a href="#zombies" class="link link__zombies">ЗОМБИ</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
         <main class="main">
             <section class="sectionInfo">
+                <div class="sectionInfo_header">
+                    <img
+                        src="./assets/icons/almanac.svg"
+                        alt="Альманах"
+                        draggable="false"
+                    />
+                    <h1 class="sectionInfo_header_text">
+                        АЛЬМАНАХ САДОВОДА –
+                        <span
+                            class="sectionInfo_header_subtext sectionInfo_header_subtext__green"
+                        >
+                            СПИСОК РАСТЕНИЙ И ЗОМБИ
+                        </span>
+                    </h1>
+                </div>
+
                 <div class="content">
                     <div class="content_text-wrapper">
                         <p class="content_text">
@@ -63,10 +68,12 @@
                     </div>
                 </div>
             </section>
-            <section class="sectionPlantsList">
+            <section id="plants" class="sectionPlantsList">
+                <h2 class="sectionPlantsList_title">РАСТЕНИЯ</h2>
                 <div class="content"></div>
             </section>
-            <section class="sectionZombiesList">
+            <section id="zombies" class="sectionZombiesList">
+                <h2 class="sectionZombiesList_title">ЗОМБИ</h2>
                 <div class="content"></div>
             </section>
         </main>

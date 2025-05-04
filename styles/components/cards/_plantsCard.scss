@@ -1,36 +1,74 @@
 .plantCard {
     padding: 20px;
 
+    position: relative;
+
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 20px;
 
     border-radius: 12px;
+    background-image: url('/assets/images/plantCardTexture.png');
+    background-size: cover;
     background-color: var(--card-plant-background-color);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
-        rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 
     transition: all 0.3s ease-in-out;
 
     &:hover {
-        scale: 1.02;
+        transform: rotateY(15deg);
+    }
+
+    &-wrapper {
+        height: 100%;
+        width: 100%;
+
+        position: absolute;
+        inset: 0;
+
+        border-radius: 12px;
+        background-image: radial-gradient(
+                circle at right bottom,
+                transparent 12px,
+                var(--main-background-color) 12px
+            ),
+            radial-gradient(
+                circle at right bottom,
+                transparent 12px,
+                var(--main-background-color) 12px
+            );
+        background-position: -12px 108px, 108px -12px;
+        background-size: 24px 24px;
+        background-repeat: no-repeat;
     }
 
     &_header {
         display: flex;
         align-items: center;
-        gap: 12px;
+
         flex-shrink: 0;
 
-        font-size: 32px;
+        font-size: 40px;
         font-weight: 600;
         color: var(--font-header-plant-card-color);
 
-        &_image {
-            filter: drop-shadow(
-                rgb(204, 219, 232) 3px 3px 6px 0px inset,
-                rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset
-            );
+        &_image-wrapper {
+            height: 96px;
+
+            position: relative;
+            top: -8px;
+            left: -8px;
+
+            flex-shrink: 0;
+
+            background-color: var(--main-background-color);
+            outline: 12px solid var(--main-background-color);
+            border-bottom-right-radius: 12px;
+        }
+
+        .title {
+            flex-basis: 100%;
+
+            text-align: center;
         }
     }
 
@@ -44,6 +82,7 @@
         justify-content: space-between;
 
         background-color: var(--plant-panel-background-color);
+        border-radius: 12px;
 
         font-size: 24px;
         color: var(--plant-card-content-font-color);

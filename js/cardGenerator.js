@@ -20,16 +20,24 @@ fetchJSON(plantsDataPath).then(result =>
     result.forEach(plant => {
         const card = document.createElement('div');
         card.className = 'plantCard';
+        const cardWrapper = document.createElement('div');
+        cardWrapper.className = 'plantCard-wrapper';
+        card.appendChild(cardWrapper);
 
         const cardHeader = document.createElement('div');
         cardHeader.className = 'plantCard_header';
+        const imageWrapper = document.createElement('div');
+        imageWrapper.className = 'plantCard_header_image-wrapper';
         const image = document.createElement('img');
         image.className = 'plantCard_header_image';
         image.src = imagesPlantsBaseFolderPath + plant.imagePath;
         image.alt = plant.title;
+        image.draggable = false;
         const title = document.createElement('h4');
-        title.innerHTML = plant.title;
-        cardHeader.appendChild(image);
+        title.className = 'title';
+        title.innerHTML = plant.title.toUpperCase();
+        imageWrapper.appendChild(image);
+        cardHeader.appendChild(imageWrapper);
         cardHeader.appendChild(title);
         card.appendChild(cardHeader);
 
@@ -69,7 +77,7 @@ fetchJSON(plantsDataPath).then(result =>
         price.className = 'price';
         price.innerHTML = 'Цена: ';
         const priceValue = document.createElement('span');
-        priceValue.className = 'info_value';
+        priceValue.className = 'info-value';
         priceValue.innerHTML = plant.price;
         price.appendChild(priceValue);
 
@@ -77,7 +85,7 @@ fetchJSON(plantsDataPath).then(result =>
         reload.className = 'reload';
         reload.innerHTML = 'Зарядка: ';
         const reloadValue = document.createElement('span');
-        reloadValue.className = 'info_value';
+        reloadValue.className = 'info-value';
         reloadValue.innerHTML = plant.reload;
         reload.appendChild(reloadValue);
 
@@ -93,16 +101,24 @@ fetchJSON(zombiesDataPath).then(result =>
     result.forEach(zombie => {
         const card = document.createElement('div');
         card.className = 'zombieCard';
+        const cardWrapper = document.createElement('div');
+        cardWrapper.className = 'zombieCard-wrapper';
+        card.appendChild(cardWrapper);
 
         const cardHeader = document.createElement('div');
         cardHeader.className = 'zombieCard_header';
+        const imageWrapper = document.createElement('div');
+        imageWrapper.className = 'zombieCard_header_image-wrapper';
         const image = document.createElement('img');
         image.className = 'zombieCard_header_image';
         image.src = imagesZombiesBaseFolderPath + zombie.imagePath;
         image.alt = zombie.title;
+        image.draggable = false;
         const title = document.createElement('h4');
-        title.innerHTML = zombie.title;
-        cardHeader.appendChild(image);
+        title.className = 'title';
+        title.innerHTML = zombie.title.toUpperCase();
+        imageWrapper.appendChild(image);
+        cardHeader.appendChild(imageWrapper);
         cardHeader.appendChild(title);
         card.appendChild(cardHeader);
 
@@ -142,7 +158,7 @@ fetchJSON(zombiesDataPath).then(result =>
         speed.className = 'speed';
         speed.innerHTML = 'Скорость: ';
         const speedValue = document.createElement('span');
-        speedValue.className = 'info_value';
+        speedValue.className = 'info-value';
         speedValue.innerHTML = zombie.speed;
         speed.appendChild(speedValue);
 
